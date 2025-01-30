@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Sora Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- Vanilla CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/a05b066e66.js" crossorigin="anonymous"></script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Assignment-3</title>
 </head>
+
 <body>
-    
+    <header>
+        <!-- Navbar -->
+        <nav class="bg-[#FFF9F4] w-full h-24 sora flex justify-center items-center">
+            <div class="flex">
+                <!--Logo & Title -->
+                <div class="flex items-center text-2xl">
+                    <img class="mr-3" src="assets/logo-header.png" alt="">
+                    <h4>Browse<span class="text-[#FFDC26]">4</span>Pets</h4>
+                </div>
+                <!-- Three Anchor -->
+                <div class="w-[21.5rem] flex items-center justify-between text-lg ml-64  mr-32">
+                    <a href="">Find a pet</a>
+                    <a href="">Breeds</a>
+                    <a href="">Contact us</a>
+                </div>
+                <!-- Notification,Search,Buttons -->
+                <div class="flex items-center">
+                    <i class="fa-regular fa-bell mr-4"></i>
+                    <i class="fa-solid fa-magnifying-glass mr-4"></i>
+                    <button class="btn btn-outline border-[#FFDC26] mr-3 text-base">Login</button>
+                    <button class="btn border-none btn-active bg-[#FFDC26] text-base">Register</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
