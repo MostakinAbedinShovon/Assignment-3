@@ -597,19 +597,32 @@
             </div>
         </div>
         <!-- Absolute Footer Section -->
-        <div class="hidden justify-center">
+        <div class="flex justify-center">
             <div
-                class="w-[82.5rem] h-[30.6875rem] bg-[#FFF9F4] flex justify-center items-center rounded-xl absolute -top-64">
-                <div class="flex">
-                    <img class="mr-28" src="assets/cute-pet-mid.png" alt="">
-                    <div class="flex items-center">
+                class="w-[22.5rem] h-[32.6875rem] sm:w-[82.5rem] sm:h-[30.6875rem] bg-[#FFF9F4] flex justify-center items-center rounded-xl absolute sm:-top-64 -top-80">
+                <div class="sm:flex">
+                    <div class="flex justify-center sm:hidden">
+                        <img class="w-[11.875rem] h-[15rem] sm:w-auto sm:h-auto" src="assets/cute-pet-mid.png" alt="">
+                    </div>
+                    <img class="mr-28 hidden sm:flex" src="assets/cute-pet-mid.png" alt="">
+
+                    <div class="flex items-center px-3 sm:px-0">
                         <div>
-                            <h1 class="adl-dis text-4xl mb-5">Get Pawsome News!</h1>
-                            <p class="sora text-xl mb-9">Exclusive training tips, ticks, product deals and more.</p>
-                            <input class="w-[29.5rem] h-[4.1875rem] rounded-xl mb-9 focus:outline-none pl-6"
+                            <h1 class="adl-dis text-[22px] sm:text-4xl mb-5 text-center sm:text-start">Get Pawsome News!</h1>
+                            <p class="sora text-base sm:text-xl mb-5 text-center sm:text-start">Exclusive training tips, ticks, product deals and more.</p>
+                            <div class="flex justify-center sm:hidden">
+                                <input class="w-[19.5rem] h-[2.625rem] sm:w-[29.5rem] sm:h-[4.1875rem] rounded-s-lg sm:mb-9 focus:outline-none pl-6 mb-3"
                                 type="email" placeholder="Enter email....">
-                            <br>
-                            <button class="btn border-none btn-active bg-[#FFDC26] text-base">Subscribe</button>
+                            </div>
+                            <input class="w-[29.5rem] h-[4.1875rem] rounded-xl focus:outline-none pl-6 hidden sm:flex"
+                                type="email" placeholder="Enter email....">
+
+                            <br class="hidden sm:flex">
+
+                            <div class="flex justify-center sm:hidden">
+                                <button class="btn border-none btn-active bg-[#FFDC26] text-base">Subscribe</button>
+                            </div>
+                            <button class="btn border-none hidden sm:flex btn-active bg-[#FFDC26] text-base">Subscribe</button>
                         </div>
                     </div>
                 </div>
